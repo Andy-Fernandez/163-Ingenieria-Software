@@ -2,12 +2,14 @@ html, body {
   margin: 0;
   height: 100%;
   overflow: hidden;
+  background-color: #28272A; /* Fondo negro para el cuerpo del documento */
 }
 
 .imagen-pantalla-completa {
-  background-image: url('./img.png'); /* Reemplaza con la ruta de tu imagen */
-  background-size: cover;
+  background-image: url('/img.png'); /* Reemplaza con la ruta de tu imagen */
+  background-size: auto 100%; /* Ajusta la altura al 100% y el ancho se ajusta automáticamente */
   background-position: center;
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
   position: absolute;
   top: 0;
   left: 0;
